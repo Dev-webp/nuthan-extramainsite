@@ -21,7 +21,7 @@ const Newzeskillwork = () => {
             <div className="flex-shrink-0 mx-auto lg:mx-0">
                 <img
                     src="/assets/Newzeskillwork.png"
-                    alt="Australia Business Visa"
+                    alt="newzeland"
 
                     className="w-full max-w-xs mt-5 sm:max-w-sm md:max-w-md lg:w-full lg:h-60 object-contain shadow-lg rounded-lg"
                 />

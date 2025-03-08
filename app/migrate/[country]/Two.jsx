@@ -109,7 +109,14 @@ const backgroundImages = {
   germany: "/germanybgimg.jpg",
   canada: "/canadabgimg.jpg",
   "united-states": "/usabgimg.jpg",
-  australia: "/australiabgimg.jpg",
+  australia: "/australiabgimg.jpg", 
+  "united-kingdom": "/ukk.jpg",
+  "new-zealand": "/nzz.jpg",
+  "south-africa": "/sa666.png",
+  "hong-kong": "/hongkong444.jpg",
+  uae: "/uae333.jpg",
+  denmark: "/denmark222.jpg",
+
 };
 
 const MigrateCountry = () => {

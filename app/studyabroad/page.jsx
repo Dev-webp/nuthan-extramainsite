@@ -8,13 +8,11 @@ export default function StudyAbroadPage() {
       style={{ backgroundImage: "url('/studyabroad.png')" }} 
     >
       {/* Main Content Wrapper */}
-      <div className="flex flex-1 px-12 pt-32 pb-6 gap-x-12 relative ml-6">
+      <div className="flex flex-col lg:flex-row flex-1 px-6 sm:px-12 pt-24 pb-6 gap-6 relative">
 
-
-        
-        {/* Left Section: Study Abroad Content Box (Smaller & Centered) */}
-        <div className="w-1/2  p-5 text-black bg-white/80 rounded-lg shadow-lg transition duration-300 ease-in-out hover:bg-orange-300/90 hover:shadow-xl border-4 border-transparent hover:border-orange-500 transform hover:-translate-y-2">
-          <h1 className="text-2xl font-bold mb-4">Study Abroad</h1>
+        {/* Left Section: Study Abroad Content Box (Responsive) */}
+        <div className="w-full lg:w-1/2 p-5 text-black bg-white/90 rounded-lg shadow-lg transition duration-300 ease-in-out hover:bg-orange-300/90 hover:shadow-xl border-4 border-transparent hover:border-orange-500 transform hover:-translate-y-2">
+          <h1 className="text-xl sm:text-2xl font-bold mb-4 text-center lg:text-left">Study Abroad</h1>
 
           <p className="mb-4">
             <span className="font-bold">Study Abroad with VJC Overseas: Your Global Education Partner</span>
@@ -30,11 +28,11 @@ export default function StudyAbroadPage() {
             Whether you're looking to pursue your passion in <span className="font-bold">engineering, business, healthcare, or the arts</span>, we can help you find the best program that aligns with your academic and career goals.
           </p>
 
-          <p className="mb-4 font-bold text-orange-500">
+          <p className="mb-4 font-bold text-orange-500 text-center lg:text-left">
             Studying abroad is an investment in your future, and with VJC Overseas, you’re not just applying for a course—you’re embarking on a life-changing adventure.
           </p>
 
-          <p className="mb-4">
+          <p className="mb-4 text-center lg:text-left">
             Let us help you take the first step towards a world-class education and an exciting new chapter in your life.
           </p>
 
@@ -43,8 +41,8 @@ export default function StudyAbroadPage() {
           </p>
         </div>
 
-        {/* Right Section: Fixed Position Form */}
-        <div className="absolute right-16 top-24 w-12/4 p-6 bg-white rounded-lg shadow-lg  ">
+        {/* Right Section: Form (Mobile-Friendly) */}
+        <div className="w-full lg:w-1/3 mx-auto p-6 bg-white rounded-lg shadow-lg">
           <Form />
         </div>
       </div>
